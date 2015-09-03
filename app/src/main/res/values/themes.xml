@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- These are styles that apply across the entire application. For styles that should
+        be applied to a particular view or activity, please use styles.xml. -->
+
     <!-- The theme applied to the application or activity -->
     <style name="MyPantryTheme"
         parent="@style/Theme.AppCompat.Light.DarkActionBar">

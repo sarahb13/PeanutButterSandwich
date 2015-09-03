@@ -1,9 +1,50 @@
 <resources>
 
+    <!-- These are styles that apply to a particular view or activity. For styles that should
+        be applied across the entire application, please use themes.xml. -->
+
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
 
     </style>
+
+    <!-- Home screen button styles -->
+    <!-- Home screen button main style -->
+    <style name="HomeScreenButtonStyle" parent="@style/Widget.AppCompat.Button">
+        <item name="android:drawablePadding">@dimen/home_button_left_right_padding</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">@dimen/home_button_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingEnd">@dimen/home_button_left_right_padding</item>
+        <item name="android:paddingStart">@dimen/home_button_left_right_padding</item>
+        <item name="android:textColor">@color/home_button_text_color</item>
+        <item name="android:textSize">@dimen/home_button_text_size</item>
+    </style>
+
+    <!-- Home screen button: Pantry -->
+    <style name="HomeScreenButtonStyle.Pantry" parent="HomeScreenButtonStyle">
+        <item name="android:backgroundTint">@color/home_pantry</item>
+        <item name="android:drawableStart">@drawable/ic_inventory</item>
+    </style>
+
+    <!-- Home screen button: Leftovers -->
+    <style name="HomeScreenButtonStyle.Leftovers" parent="HomeScreenButtonStyle">
+        <item name="android:backgroundTint">@color/home_leftovers</item>
+        <item name="android:drawableStart">@drawable/ic_leftovers</item>
+    </style>
+
+    <!-- Home screen button: Shopping List -->
+    <style name="HomeScreenButtonStyle.ShoppingList" parent="HomeScreenButtonStyle">
+        <item name="android:backgroundTint">@color/home_shopping_list</item>
+        <item name="android:drawableStart">@drawable/ic_shopping_list</item>
+    </style>
+
+    <!-- Home screen button: Scan Item -->
+    <style name="HomeScreenButtonStyle.ScanItem" parent="HomeScreenButtonStyle">
+        <item name="android:backgroundTint">@color/home_barcode_scan</item>
+        <item name="android:drawableStart">@drawable/ic_barcode_scan</item>
+    </style>
+
 
 
 

@@ -11,48 +11,21 @@
 
     <!-- Pantry -->
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/home_button_height"
         android:text="@string/home_pantry"
-        android:backgroundTint="@color/home_pantry"
-        android:drawableStart="@drawable/ic_inventory"
-        android:drawablePadding="@dimen/home_button_left_right_padding"
-        android:gravity="center_vertical"
-        android:paddingEnd="@dimen/home_button_left_right_padding"
-        android:paddingStart="@dimen/home_button_left_right_padding"
-        android:textColor="@color/home_button_text_color"
-        android:textSize="@dimen/home_button_text_size"
-        android:onClick="showPantry"/>
+        android:onClick="showPantry"
+        style="@style/HomeScreenButtonStyle.Pantry"/>
 
     <!-- Leftovers -->
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/home_button_height"
         android:text="@string/home_leftovers"
-        android:backgroundTint="@color/home_leftovers"
-        android:drawableStart="@drawable/ic_leftovers"
-        android:drawablePadding="@dimen/home_button_left_right_padding"
-        android:gravity="center_vertical"
-        android:paddingEnd="@dimen/home_button_left_right_padding"
-        android:paddingStart="@dimen/home_button_left_right_padding"
-        android:textColor="@color/home_button_text_color"
-        android:textSize="@dimen/home_button_text_size"
-        android:onClick="showLeftovers"/>
+        android:onClick="showLeftovers"
+        style="@style/HomeScreenButtonStyle.Leftovers"/>
 
     <!-- Shopping List-->
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/home_button_height"
         android:text="@string/home_shopping_list"
-        android:backgroundTint="@color/home_shopping_list"
-        android:gravity="center_vertical"
-        android:drawableStart="@drawable/ic_shopping_list"
-        android:drawablePadding="@dimen/home_button_left_right_padding"
-        android:paddingEnd="@dimen/home_button_left_right_padding"
-        android:paddingStart="@dimen/home_button_left_right_padding"
-        android:textColor="@color/home_button_text_color"
-        android:textSize="@dimen/home_button_text_size"
-        android:onClick="showShoppingList"/>
+        android:onClick="showShoppingList"
+        style="@style/HomeScreenButtonStyle.ShoppingList"/>
 
     <!-- Divider Line -->
     <TextView
@@ -63,16 +36,7 @@
 
     <!-- Barcode Scan Button -->
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/home_button_height"
         android:text="@string/home_scan_barcode"
-        android:backgroundTint="@color/home_barcode_scan"
-        android:gravity="center_vertical"
-        android:drawableStart="@drawable/ic_barcode_scan"
-        android:drawablePadding="@dimen/home_button_left_right_padding"
-        android:paddingEnd="@dimen/home_button_left_right_padding"
-        android:paddingStart="@dimen/home_button_left_right_padding"
-        android:textColor="@color/home_button_text_color"
-        android:textSize="@dimen/home_button_text_size"/>
+        style="@style/HomeScreenButtonStyle.ScanItem"/>
 
 </LinearLayout>
