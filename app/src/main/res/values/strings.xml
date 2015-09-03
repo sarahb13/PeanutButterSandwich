@@ -8,7 +8,7 @@
     <!-- Placeholder text - can be deleted when stubs are built out. -->
     <string name="placeholder_pantry">This is where pantry items will go.</string>
     <string name="placeholder_expiring">This is where expiring items will go.</string>
-    <string name="placeholder_leftovers">This is where leftovers will go.</string>
+    <string name="placeholder_leftovers">This is where leftovers will be stored.</string>
     <string name="placeholder_shopping_list">This is where the shopping list will go.</string>
     
     <!-- Home Screen Strings -->
