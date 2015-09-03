@@ -1,6 +1,35 @@
 <resources>
     <string name="app_name">My Pantry</string>
 
-    <string name="hello_world">Hello world!</string>
+    <!-- ActionBar Strings -->
+    <string name="action_search">Search</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Placeholder text - can be deleted when stubs are built out. -->
+    <string name="placeholder_pantry">This is where pantry items will go.</string>
+    <string name="placeholder_expiring">This is where expiring items will go.</string>
+    <string name="placeholder_leftovers">This is where leftovers will go.</string>
+    <string name="placeholder_shopping_list">This is where the shopping list will go.</string>
+    
+    <!-- Home Screen Strings -->
+    <string name="home_pantry">Pantry</string>
+    <string name="home_leftovers">Leftovers</string>
+    <string name="home_shopping_list">Shopping List</string>
+    <string name="home_divider_text">-- or --</string>
+    <string name="home_scan_barcode">Scan Barcode</string>
+    <string name="title_activity_my_pantry">My Pantry</string>
+
+    <!-- Pantry Strings -->
+    <string name="title_section1">In The Pantry</string>
+    <string name="title_section2">Expiring Soon</string>
+
+
+    <!-- Leftovers Strings -->
+    <string name="title_activity_show_pantry">Pantry</string>
+    <string name="title_activity_leftovers">Leftovers</string>
+    <string name="title_activity_shopping_list">Shopping List</string>
+
+    <!-- Shopping List Strings -->
+
+    
 </resources>

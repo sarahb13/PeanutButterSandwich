@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ActionBar -->
+    <color name="actionbar_background">#327CCB</color>
+    <color name="actionbar_text">#FFF</color>
+
+    <!-- Home Screen -->
+    <color name="home_pantry">#1693A5</color>
+    <color name="home_leftovers">#F58723</color>
+    <color name="home_shopping_list">#E8373E</color>
+    <color name="home_button_text_color">#FFF</color>
+    <color name="home_barcode_scan">#327CCB</color>
+
+</resources>
